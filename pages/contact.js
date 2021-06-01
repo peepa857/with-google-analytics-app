@@ -22,7 +22,7 @@ export default class Contact extends Component {
     gtag.event({
       action: "click",
       category: "other",
-      label: "submit_button',",
+      label: "submit_button",
     });
 
     this.setState({ message: "" });
